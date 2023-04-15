@@ -9,13 +9,13 @@
 </head>
 <body>
     <!-- into section -->
-    <div class=" h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200 ">
+    <div class=" h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden">
        
         <!-- navbar -->
-        <nav class=" w-full fixed top-0 bg-white">
+        <nav class=" w-full fixed top-0 bg-white z-10">
             <div class=" container px-4 mx-auto py-5 flex items-center justify-between ">
                 <div class="flex items-center gap-2">
-                    <img class="w-8 h-8"  src="../img/Infinite-removebg-preview.png" alt="logo">
+                    <img class="w-8 h-8"  src="../img/logo.png" alt="logo">
                     <span class="text-2xl font-bold text-indigo-900">ArianDev.</span>
                 </div>
                 <ul class="hidden md:flex space-x-10 text-sm text-gray-600 uppercase font-bold ">
@@ -35,7 +35,7 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-                <img class="w-8 cursor-pointer hidden md:block" src="../img/icons8-user-location-64.png" alt="darkmode">
+                <img class="w-8 cursor-pointer hidden md:block" src="../img/moon.png" alt="darkmode">
                 <div id="hamberger" class="space-y-1 md:hidden cursor-pointer z-10 ">
                     <div class="w-8 h-1 bg-black rounded-full"></div>
                     <div class="w-8 h-1 bg-black rounded-full"></div>
@@ -65,6 +65,14 @@
            
         </nav>
         <!-- intro content -->
+        <!-- image -->
+        <img class="absolute bottom-0 right-0 lg:left-0 lg:m-auto h-[80%] object-cover" src="../img/man.png" alt="">
+        <!-- cercle -->
+        <div class="hidden lg:block absolute -bottom-1/4 w-big h-big bg-indigo-900 -z-10 rounded-full left-0 right-0 mx-auto"></div>
+        <!-- animation text -->
+        <span>Frelancer</span>
+        <p>Developer</p>
+        <!-- texts -->
         <div></div>
     </div>
 
