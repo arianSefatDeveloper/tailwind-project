@@ -3,7 +3,7 @@
 
 
  hamberger.addEventListener("click",function(){
-    mobileMenu.classList.toggle("opacity-0")
+    mobileMenu.classList.toggle("hidden")
     hamberger.classList.toggle("text-white")
    
  })

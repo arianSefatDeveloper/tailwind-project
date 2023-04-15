@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/output.css"> 
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <title>Arian Dev</title>
 </head>
 <body>
@@ -35,7 +36,7 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-                <img class="w-8 cursor-pointer hidden md:block" src="../img/moon.png" alt="darkmode">
+                <img class=" w-8 cursor-pointer  hidden md:block" src="../img/moon.png" alt="darkmode">
                 <div id="hamberger" class="space-y-1 md:hidden cursor-pointer z-10 ">
                     <div class="w-8 h-1 bg-black rounded-full"></div>
                     <div class="w-8 h-1 bg-black rounded-full"></div>
@@ -43,7 +44,7 @@
                 </div>
 
 
-                <ul id="mobile-menu" class="transition-all opacity-0 bg-indigo-400 absolute left-0 top-0 rounded-b-2xl space-y-10 py-3 text-center text-white w-full ">
+                <ul id="mobile-menu" class="transition-all hidden bg-indigo-400 absolute left-0 top-0 rounded-b-2xl space-y-10 py-3 text-center text-white w-full ">
                     <li class=" ">
                         <a href="#">HomePage</a>
                     </li>
@@ -66,15 +67,26 @@
         </nav>
         <!-- intro content -->
         <!-- image -->
-        <img class="absolute bottom-0 right-0 lg:left-0 lg:m-auto h-[80%] object-cover" src="../img/man.png" alt="">
+        <img class="absolute bottom-0 right-8 md:right-20  lg:left-0 lg:m-auto h-[80%] object-cover" src="../img/man-new.png" alt="">
         <!-- cercle -->
-        <div class="hidden lg:block absolute -bottom-1/4 w-big h-big bg-indigo-900 -z-10 rounded-full left-0 right-0 mx-auto"></div>
+        <div class=" hidden lg:block absolute -bottom-1/4 w-big h-big bg-indigo-900 -z-10 rounded-full left-0 right-0 mx-auto"></div>
         <!-- animation text -->
-        <span>Frelancer</span>
-        <p>Developer</p>
+        <div class="absolute top-1/3 left-6 text-xl sm:left-14 sm:text-4xl md:left-[20%] md:text-6xl lg:left-12 xl:left-28 font-bold">
+            <span class="text-gray-600">Frelancer</span>
+            <p id="text" class="text-indigo-500"></p>
+        </div>
         <!-- texts -->
-        <div></div>
+        <div class=" hidden lg:flex flex-col absolute top-0 bottom-0  right-10 m-auto h-fit w-1/3 bg-white p-6 rounded-lg shadow-lg  gap-5">
+            <h1 class="font-bold text-xl text-indigo-900">Hi, I'm Arian</h1>
+            <p class="italic text-gray-700"> with over 10 years of experience on web design and development. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. N oumquam quo
+                provident, facere minus temporibus veniam nostrum reprehenderit nihil?</p>
+
+                <a class="bg-indigo-600 w-fit py-3 px-5 text-white font-bold rounded-lg shadow-sm" href="#contact">Hire Me</a>
+        </div>
     </div>
+
+    
 
 
 
@@ -83,5 +95,6 @@
 
 
     <script src="./main.js"></script>
+    <script src="./autotyping.js"></script>
 </body>
 </html>

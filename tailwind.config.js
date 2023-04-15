@@ -7,7 +7,7 @@ module.exports = {
         "sm":"480px"
       },
       spacing:{
-        "big":"48rem"
+        "big":"40rem"
       }
     },
   },
