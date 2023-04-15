@@ -4,14 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../dist/output.css"> 
     <title>Arian Dev</title>
 </head>
 <body>
     <!-- into section -->
-    <div>
+    <div class=" h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200 ">
+       
         <!-- navbar -->
-        <nav></nav>
+        <nav class=" w-full fixed top-0 bg-white">
+            <div class=" container px-4 mx-auto py-5 flex items-center justify-between ">
+                <div class="flex items-center gap-2">
+                    <img class="w-8 h-8"  src="../img/Infinite-removebg-preview.png" alt="logo">
+                    <span class="text-2xl font-bold text-indigo-900">ArianDev.</span>
+                </div>
+                <ul class="hidden md:flex space-x-10 text-sm text-gray-600 uppercase font-bold ">
+                    <li class="hover:text-gray-500 ">
+                        <a href="#">HomePage</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#">About Me</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#">Works</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <img class="w-8 cursor-pointer hidden md:block" src="../img/icons8-user-location-64.png" alt="darkmode">
+                <div id="hamberger" class="space-y-1 md:hidden cursor-pointer z-10 ">
+                    <div class="w-8 h-1 bg-black rounded-full"></div>
+                    <div class="w-8 h-1 bg-black rounded-full"></div>
+                    <div class="w-8 h-1 bg-black rounded-full"></div>
+                </div>
+
+
+                <ul id="mobile-menu" class="transition-all opacity-0 bg-indigo-400 absolute left-0 top-0 rounded-b-2xl space-y-10 py-3 text-center text-white w-full ">
+                    <li class=" ">
+                        <a href="#">HomePage</a>
+                    </li>
+                    <li class="">
+                        <a href="#">About Me</a>
+                    </li>
+                    <li class="">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="">
+                        <a href="#">Works</a>
+                    </li>
+                    <li class="">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+           
+        </nav>
         <!-- intro content -->
         <div></div>
     </div>
